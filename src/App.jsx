@@ -203,17 +203,18 @@ export default function App() {
             onClick={() => setActiveTab('home')} 
             className="flex items-center space-x-3 cursor-pointer group"
           >
-            <div className="w-11 h-11 rounded-xl bg-slate-900 flex items-center justify-center text-sky-400 font-black text-2xl shadow-md group-hover:scale-105 transition-transform">
-              Edu<span className="text-sky-500">X</span>
+            <div className="group-hover:scale-105 transition-transform">
+              <img src='CU.png' className="h-10 w-auto"></img>
             </div>
             <div>
-              <span className="font-extrabold text-xl text-slate-900 tracking-tight block leading-tight">
-                EduX<span className="text-sky-600">.io</span>
+              <span className="font-extrabold text-xl text-blue-900 tracking-tight block leading-tight">
+                Carrier<span className="text-blue-600">Update</span>
               </span>
-              <span className="text-[10px] uppercase font-bold tracking-widest text-sky-600 block">
-                Next-Gen Pedagogy
+              <span className="text-[8px] uppercase font-bold tracking-widest text-blue-900 block">
+                Learn | Build | Get Placed
               </span>
             </div>
+            
           </div>
 
           {/* Desktop Navigation */}
